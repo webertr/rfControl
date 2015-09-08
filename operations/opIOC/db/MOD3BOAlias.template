@@ -1,0 +1,7 @@
+# bo record template for MOD3 bo's
+record(bo,"$(P)") {
+    field(ZNAM,"$(ZNAM)")
+    field(ONAM,"$(ONAM)")
+    field(DESC,"$(DESC)")
+    alias($(ALIAS))
+}
